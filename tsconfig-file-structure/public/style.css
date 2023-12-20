@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+}
+
+div{
+    margin: 1rem 0;
+}
+label{
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+}
+input{
+    outline: none;
+    width: 10rem;
+    height: 1.5rem;
+    border: 1px solid #333;
+    padding: .75rem;
+    border-radius: 5px;
+}
+button{
+    padding: .45rem 2rem;
+    border: none;
+    background: #333;
+    color: aliceblue;
+    cursor: pointer;
+    border-radius: 5px;
+}
